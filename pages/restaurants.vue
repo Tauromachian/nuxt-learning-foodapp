@@ -1,5 +1,6 @@
 <template>
   <section class="restaurantinfo">
+    <h1>Restaurants</h1>
     <div v-for="store in fooddata" :key="store.id">
       <h2>
         {{ store.name }}
@@ -16,9 +17,9 @@
           :key="menuItem.id"
           class="items"
           :style="`
-              background: url(${menuItem.img});
-              no-repeat: center center;
-            `"
+            background: url(${menuItem.img});
+            no-repeat: center center;
+          `"
         >
           <div class="iteminfo">
             <div>
