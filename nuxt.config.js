@@ -2,7 +2,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
   router: {
-    base: 'nuxt-learning-foodapp',
+    base: '/nuxt-learning-foodapp/dist',
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
